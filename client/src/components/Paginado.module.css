@@ -1,0 +1,40 @@
+.paginado{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    background-color: rgb(184, 181, 181);
+    /* margin-top: 30%; */
+    align-content: space-around;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.num{
+   display: flex;
+   justify-content: space-between;
+   border-radius: 20px;
+   
+}
+
+
+.ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: rgb(24, 24, 24);
+    
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50% ;
+    height: 1.5rem;
+    width: 1.5rem;
+    border: 5px solid rgb(0, 0, 0);
+    margin-bottom: 3rem;
+    background-color:rgb(226, 224, 224);
+    cursor: pointer;
+    
+}
